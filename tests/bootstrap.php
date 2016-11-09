@@ -74,4 +74,6 @@ Cake\Datasource\ConnectionManager::config('test', [
 	'cacheMetadata' => true,
 ]);
 
+Cake\Routing\DispatcherFactory::add('Routing');
+
 class_alias('Cake\Controller\Controller', 'App\Controller\AppController');
