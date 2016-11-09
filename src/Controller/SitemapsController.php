@@ -29,7 +29,7 @@ class SitemapsController extends AppController {
 			$data[$table] = $this->{$table}->find('forSitemap');
 		}
 
-		$this->set(compact('data'));
+		$this->set('data', $data);
 		$this->set('_serialize', false);
 	}
 }
