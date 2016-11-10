@@ -6,7 +6,7 @@ use Cake\Routing\Router;
 Router::scope('/', function ($routes) {
 	$routes->connect('/pages/view/:id', [
 		'controller' => 'Pages',
-		'action' => 'view'
+		'action' => 'view',
 	], ['pass' => ['id']]);
 });
 
