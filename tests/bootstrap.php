@@ -21,8 +21,8 @@ Cake\Core\Configure::write('App', [
 	'namespace' => 'App',
 	'encoding' => 'UTF-8',
 	'paths' => [
-		'templates' => [APP . 'Template' . DS]
-	]
+		'templates' => [APP . 'Template' . DS],
+	],
 ]);
 Cake\Core\Configure::write('debug', true);
 
