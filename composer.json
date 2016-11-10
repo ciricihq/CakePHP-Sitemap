@@ -1,5 +1,5 @@
 {
-  "name": "loadsys/cakephp_sitemap",
+  "name": "ciricihq/cake-sitemap",
   "description": "A CakePHP Plugin for adding automatic XML and HTML Sitemaps to an app",
   "type": "cakephp-plugin",
   "keywords": [
@@ -7,18 +7,24 @@
     "sitemap"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/loadsys/CakePHP-Sitemap",
+  "homepage": "https://github.com/ciricihq/CakePHP-Sitemap",
   "authors": [
     {
       "name": "Justin Yost",
       "homepage": "https://github.com/jtyost2",
       "email": "justin@loadsys.com",
       "role": "Developer"
+    },
+    {
+      "name": "Òscar Casajuana",
+      "homepage": "https://github.com/elboletaire",
+      "email": "oscar@cirici.com",
+      "role": "Developer"
     }
   ],
   "support": {
-    "issues": "https://github.com/loadsys/CakePHP-Sitemap/issues",
-    "source": "https://github.com/loadsys/CakePHP-Sitemap"
+    "issues": "https://github.com/ciricihq/CakePHP-Sitemap/issues",
+    "source": "https://github.com/ciricihq/CakePHP-Sitemap"
   },
   "require": {
     "php": ">=5.6.0",
